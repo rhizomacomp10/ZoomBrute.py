@@ -30,12 +30,12 @@ while istrue == 'true': #Infinite while loop
     joinid='https://zoom.us/wc/join/' + str(id) #put the code into the url
     print("trying code " + str(id))
     browser.get((joinid)) #Open the webbrowser / refresh
-    if len(browser.find_elements_by_id('inputname')) > 0: #Check if it can find the name input (means that the code works
+    if len(browser.find_elements_by_id('password')) > 0: #Check if it can find the name input (means that the code works
         print('Code ' + str(id) + ' works!')
         f = open("works.txt", "a") ##
         f.write(str(id)+"\n")      ## Write the working code to the text file
         f.close()                  ##
-    elif len(browser.find_elements_by_id('wc_agree1')) > 0: #another check
+    elif len(browser.find_elements_by_id('email')) > 0: #another check
         print('Code ' + str(id) + ' works!')
         f = open("works.txt", "a")
         f.write(str(id)+"\n")
