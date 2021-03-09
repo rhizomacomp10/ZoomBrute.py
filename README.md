@@ -1,11 +1,11 @@
 # ZoomBrute.py fixed
 ### A program that automatically tests random Zoom meeting codes,  to brute force meetings.
-This is just a quick script that ![DDDASHXD](https://github.com/DDDASHXD) made and edited by me that generates either a random 9 or 10 char number, and tries to use it on zoom.
+This is just a quick script that [DDDASHXD](https://github.com/DDDASHXD) made and edited by me that generates either a random 9 or 10 char number, and tries to use it on zoom.
 If it works, it'll tell you.
 
 # Requirements
 1. You need to have the newest public version of chrome installed
-2. Latest version of ![Chrome Driver](https://chromedriver.chromium.org/) in the same directory as main.py
+2. Latest version of [Chrome Driver](https://chromedriver.chromium.org/) in the same directory as main.py
 
 # Usage
 1. Have python installed to path obviously
