@@ -3,7 +3,7 @@
 This is just a quick script that [DDDASHXD](https://github.com/DDDASHXD) made and edited by me that generates either a random 9 or 10 char number, and tries to use it on zoom.
 If it works, it'll tell you.
 
-currently only works with http proxies not sure
+#### currently only works with http proxies not sure
 
 # Requirements
 1. You need to have the newest public version of chrome installed
